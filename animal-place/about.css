@@ -1,0 +1,93 @@
+/* Start Of Page CSS */
+/* Style All */
+*
+{
+	box-sizing: border-box;
+}
+
+/* Style of Body */
+
+body
+{
+	margin: 0;
+	font-family:Helvetica,Arial,freesans,sans-serif;
+	font-size:13px;
+}
+
+/* Style the header */
+.header
+{
+	font-size: 16px;
+	background-color: #FFFFFF; /* White */
+	padding: 10px;
+	text-align: center;
+	color: #1f1b1b; /* Red Text */
+	border-top: 5px solid #1f1b1b; /* Black Line */
+}
+
+/* Style the top navigation bar */
+.topnav
+{
+	text-align:center;
+	overflow: hidden;
+    background-color: #1f1b1b; /* Black */
+}
+
+/* Style the topnav links */
+.topnav a
+{
+	display: inline-block;
+	color: #FFFFFF; /* Red Text*/
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover
+{
+
+	background-color: #000000;
+	color: white;
+}
+
+/* Create two equal columns side by side */
+.column
+{
+	text-align: center;
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px)
+{
+.column
+	{
+		width: 100%;
+		height: auto;
+	}
+}
+.column h1
+{
+	text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Image CSS */
+img /* Make images side by side */
+{
+    max-width: 100%;
+    height: auto;
+	max-height: 100%;
+	width: auto;
+}
+/* End Of Page CSS */

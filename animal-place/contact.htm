@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Animal Place</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<!-- Created by Mark Baber -->
+
+<!-- This is the CSS -->
+<link rel="stylesheet" type="text/css" href="contact.css"/>
+
+</head>
+<body>
+
+<div class="header">
+	<h1>The Animal Place</h1>
+		<p>We are a specialist exotic animal shelter, who rescue mistreated exotic animals.</p>
+</div>
+
+<!-- Navigation & Links -->
+
+	<div class="topnav">
+		<a href="index.htm">Home</a>
+		<a href="about.htm">About</a>
+		<a href="photos.htm">Photos</a>
+		<a href="contact.htm">Contact</a>
+		<a href="donate.php">Donate</a>
+	</div>
+
+    <!-- Contact Form - Start -->
+
+<div class="column">
+	<div class="container">
+		<form action="FormEcho.php" method="post">
+			<h2>Contact Form</h2>
+			 <p><strong>Personal Information</strong></p>
+				<fieldset>
+					<div class="context">
+						<label for="FirstName"></label>
+						<input type="text" id="firstname" name="First_Name"  placeholder="Your name.." required>
+						<label for="LastName"></label>
+						<input type="text" id="lastname" name="Last_Name"  placeholder="Your last name.." required>
+						<label for="Email"></label>
+						<input type="email" id="email" name="Email"  placeholder="Your email.." required>
+						<label for="Postcode"></label>
+					</div>
+						<input type="text" id="postcode" name="Postcode"  placeholder="Your postcode.." required>
+				</fieldset>
+						<p><strong>Comments</strong></p>
+				<fieldset>
+							<div class="context">
+								<label for="Comments"></label>
+									<textarea id="comments" name="Comments" rows="5" cols="50"></textarea>
+									<label for="subscribe">Subscribe to our mailing list: </label>
+									<input type="checkbox" id="subscribe" name="subscribe" checked>
+									<input type="submit" value="Submit">
+									<input type="reset" value="Clear">
+							</div>
+				</fieldset>
+				
+		</form>
+	</div>
+</div>
+
+	<!-- Contact Form - End -->
+
+</body>
+</html>

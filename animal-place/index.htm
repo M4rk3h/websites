@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Animal Place</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<!-- Created by Mark Baber -->
+
+<!-- This is the CSS -->
+<link rel="stylesheet" type="text/css" href="mycss.css"/>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>The Animal Place</h1>
+  <p>We are a specialist exotic animal shelter, who rescue mistreated exotic animals.</p>
+</div>
+
+<!-- Navigation & Links -->
+
+	<div class="topnav">
+		<a href="index.htm">Home</a>
+		<a href="about.htm">About</a>
+		<a href="photos.htm">Photos</a>
+		<a href="contact.htm">Contact</a>
+		<a href="donate.php">Donate</a>
+	</div>
+
+<div class="row">
+	<div class="column">
+		<h2>The Animal Place</h2>
+			<p>Here at the animal place, we rescue exotic animals who have been mistreated and give them a second chance at life. We have specific environments for our vast range of animals. Why not pay us a visit located at the top of Cilfynydd Mountain.</p>
+		</div>
+	<div class="column">
+		<h2>Fundraise For Us</h2>
+			<p>Due to being a non-profit charity, the animal place can really benefit from fundraising. All money made from fundraising goes directly to the animals, and we will spend it all on making the animals happier every day. From therapy to bigger environments for the animals.</p>
+	</div>
+	<div class="column">
+		<h2>Column 3</h2>
+			<p>On this website you can find all of the specific pages from About us to all of the exotic animals we're keep to find and rescue. Or why not just spend some time to look at our <a href="photos.htm">Photos</a>. </p>
+	</div>
+</div>
+
+<div class ="row">
+	<div class ="bottomcol">
+		<div id="map" style="width:1000px;height:480px;max-height:100%;max-width:100%;"></div>
+	</div>
+</div>
+
+
+<!-- This is the map start function -->
+
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.612258, -3.319736),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+<!-- This is the map end function -->
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+/* Start Of Page CSS */
+/* Style of Body */
+
+body
+{
+	margin: 0;
+	font-family:Helvetica,Arial,freesans,sans-serif;
+	font-size:13px;
+}
+
+/* Style the header */
+.header
+{
+	font-size: 16px;
+	background-color: #FFFFFF; /* White */
+	padding: 10px;
+	text-align: center;
+	color: #1f1b1b; /* Red Text */
+	border-top: 5px solid #1f1b1b; /* Black Line */
+}
+
+/* Style the top navigation bar */
+.topnav
+{
+	text-align:center;
+	overflow: hidden;
+    background-color: #1f1b1b; /* Black */
+}
+
+/* Style the topnav links */
+.topnav a
+{
+    /* float: left; */
+    display: inline-block;
+    color: #FFFFFF; /* Red Text*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover
+{
+
+    background-color: #000000;
+    color: white;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* End Of Page CSS */
+
+/* Start Of Contact Form CSS */
+
+/* Contact form css */
+input[type=text], select, textarea 
+{
+	text-align: center;
+	width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+	font-family:Helvetica,Arial,freesans,sans-serif;
+}
+
+/* Style the submit button */
+input[type=submit] {
+	text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the reset button */
+input[type=reset] {
+	text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the email button */
+input[type=email], select, textarea 
+{
+	text-align: center;
+	width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    
+}
+
+/* Change submit button on mouse over */
+input[type=submit]:hover {
+    background-color: #00ff00;
+}
+
+/* Change reset button on mouse over */
+input[type=reset]:hover {
+    background-color: #00ff00;
+}
+
+/* Add a background color and some padding around the form */
+.container 
+{
+	text-align:center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 455px;
+    margin: auto;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 10px;
+}

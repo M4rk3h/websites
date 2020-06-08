@@ -1,0 +1,125 @@
+/* Start Of Page CSS */
+/* Style of Body */
+
+body
+{
+	margin: 0;
+	font-family:Helvetica,Arial,freesans,sans-serif;
+	font-size:13px;
+}
+
+/* Make the text squeeze in from either side*/
+.para
+{
+	padding-left:13%;
+	padding-right:13%;
+}
+
+/* Style the header */
+.header
+{
+	font-size: 16px;
+	background-color: #FFFFFF; /* White */
+	padding: 10px;
+	text-align: center;
+	color: #1f1b1b; /* Red Text */
+	border-top: 5px solid #1f1b1b; /* Black Line */
+}
+
+/* Style the top navigation bar */
+.topnav
+{
+	text-align:center;
+	overflow: hidden;
+    background-color: #1f1b1b; /* Black */
+}
+
+/* Style the topnav links */
+.topnav a
+{
+    /* float: left; */
+    display: inline-block;
+    color: #FFFFFF; /* Red Text*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover
+{
+
+    background-color: #000000;
+    color: white;
+}
+
+
+.column
+{
+	text-align:center;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h1
+{
+	border-bottom: 5px solid #423d3d;
+	font-size: 25px;
+
+}
+
+/* PHP Database Table */
+table.Cilfynydd
+{
+	background-color: #f2f2f2; /* Same Grey As Contact Form */
+	/*border-top: 5px solid #413434b3;*/
+	width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+	max-width: 100%;
+	min-width: 50px;
+}
+
+
+table.Cardiff
+{
+	background-color: #FFFFFF; /* White */
+	/* border-top: 5px solid #413434b3; Black Border */
+	width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+	max-width: 100%;
+min-width: 50px;
+}
+
+table.Trefforest
+{
+	background-color: #f2f2f2; /* Same Grey As Contact Form */
+	/* border-top: 5px solid #413434b3; /* Black Border */
+	width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+	max-width: 100%;
+    min-width: 50px;
+}
+
+td
+{
+	text-align: center;
+	width: 100px;
+	max-width: 100%;
+    min-width: 50px;
+}
+/* End Of Page CSS */
