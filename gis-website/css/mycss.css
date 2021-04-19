@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+body {
+  margin: 0;
+  font-size: 1em;
+}
+
+.header {
+  color: blueviolet;
+  text-align: center;
+  border-top: 5px solid #1f1b1b;
+}
+
+h1{
+  color: #FFFFFF;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: capitalize
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center;
+}
+
+.number {
+  margin-right: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.imgPort {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.imgPort {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+
+
+.sec1 {
+  width: 90%;
+  height: 90%;
+  position: fixed;
+  text-align: center
+}
+
+map {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+}
