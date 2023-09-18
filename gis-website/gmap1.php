@@ -19,7 +19,7 @@
         <?php include 'php/gbuttons.php';?>
     </div>
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4b19Rf62isIVy20C-moot42kxl0xxY8Q&callback=pinMap">
+        src="https://maps.googleapis.com/maps/api/js?key=tee-hee-code-is-gone&callback=pinMap">
     </script>
 </body>
 
